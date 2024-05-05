@@ -11,7 +11,7 @@ const Sidebar=()=>{
     var titles=['Home','Subscriptions',"Your Channel",'History','Your Playlists','Liked Videos',"Trending",'Music','Gaming','News',"Shopping"]
     return (
         <>
-        <div className="mt-4 h-screen w-56 bg-[rgb(29, 22, 29)  flex flex-col transition-all transit">
+        <div className="mt-4 h-screen w-56 bg-[#1d1d1d] fixed top-[30px] overflow-y-hidden left-0 z-10  flex flex-col transition-all">
 
         {logos.map((logo, index) => (
           <Button key={index} title={titles[index]} logo={logo} />
