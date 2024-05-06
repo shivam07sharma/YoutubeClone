@@ -91,7 +91,7 @@ function App() {
             <div className="w-12 h-10 flex justify-center mt-2 items-center ">
               <img src="https://static.vecteezy.com/system/resources/previews/023/986/704/non_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"
                 className='w-11 h-10  ml-12' />
-              <span className='text-lg font-medium'>YouTube</span>
+              <span className='text-lg font-medium'>YooeTube</span>
             </div>
             <Link to={"/search-Youtube"}>    <span className="material-symbols-outlined mt-3 text-3xl mr-4 md:mr-6" onClick={() => { setsearch(!getsearchbar) }}>search</span>
             </Link>  </div>
